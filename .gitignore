@@ -1,0 +1,39 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+.swiftpm/
+
+# CocoaPods / Carthage
+Pods/
+Carthage/Build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Secrets and local config
+.env
+.env.*
+*.p8
+*.mobileprovision
+*.cer
+*.p12
+GoogleService-Info.plist
+
+# Logs
+*.log
+
+# Archives
+*.xcarchive
+*.ipa
